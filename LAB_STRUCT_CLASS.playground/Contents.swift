@@ -8,7 +8,7 @@ struct City{
     var weather: String
     
     func printDescription(){
-    print("City name:\(name)It is located in the center of Saudi Arabia . It has a \(population) of 9 million people. It has \(geology) . The \(weather) in Riyadh is.")
+    print("City name:\(name)It is located in the center of Saudi Arabia . It has a of \(population) million people. It has \(geology) . \(weather).")
 
     }
 }
@@ -27,15 +27,15 @@ func printDescription(){
 }
     
 }
-    var firstCitiy: City = City(name: "Hail", population: 5, location: "Saudi Arabia", geology: "Tuwaiq mountain", weather: "hot is summer, cold in winter.")
+    var firstCitiy: City = City(name: "Hail", population: 1, location: "Saudi Arabia", geology: "mountain", weather: "hot in summer, cold in winter.")
 
-    var secondCitiy:  City = City(name: "Riyadh", population: 9, location: "Saudi Arabia", geology: "Tuwaiq mountain", weather: "hot is summer, cold in winter.")
+    var secondCitiy:  City = City(name: "Riyadh", population: 8, location: "Saudi Arabia", geology: "sand", weather: "hot in summer, cold in winter.")
 
-    var thirdCitiy: City = City(name: "Makkah", population: 5, location: "Saudi Arabia", geology: "Tuwaiq mountain", weather: "hot is summer, cold in winter.")
+    var thirdCitiy: City = City(name: "Makkah", population: 2, location: "Saudi Arabia", geology: "mountain", weather: "hot in summer, cold in winter.")
 
-    var fourthCitiy: City = City(name: "Dammam", population: 10, location: "Saudi Arabia", geology: "Tuwaiq mountain", weather: "hot is summer, cold in winter.")
+    var fourthCitiy: City = City(name: "Dammam", population: 1, location: "Saudi Arabia", geology: " sea", weather: "hot in summer, cold in winter.")
 
-   var fifthCity: City = City(name: "Jeddah", population: 9, location: "Saudi Arabia", geology: "Tuwaiq mountain", weather: "hot is summer, cold in winter.")
+   var fifthCity: City = City(name: "Jeddah", population: 8, location: "Saudi Arabia", geology: "sea", weather: "hot in summer, cold in winter.")
     
         
     var saudiCountry: Country = Country()
