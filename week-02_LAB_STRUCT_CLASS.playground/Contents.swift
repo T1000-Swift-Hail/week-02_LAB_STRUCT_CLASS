@@ -29,5 +29,17 @@ let fourCities  = City (name:"Makah",population:1000000,location:"wast of saudiA
     let fifeCity = City (name:"Madenah",population:500000,location:"wast of saudiArabia",geology: "Haram",weather: "hot in saudi Arabia")
     
             cities.append(contentsOf: [FirstCities,SecondCities,thirdCities,fourCities,fifeCity])
+            for city in cities {
+                print ("\n\(city.name)is located \(city.location),It has a population of \(city.population)people,\(city.geology).\(city.weather)")
+            }
         }
     }
+        let nameCountry = country()
+nameCountry.name="saudiArabia"
+print(nameCountry.name)
+       let Country = country()
+ Country.printDescription()
+
+
+
+
