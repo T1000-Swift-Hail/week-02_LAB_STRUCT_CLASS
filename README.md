@@ -1,5 +1,5 @@
 # week-02_LAB_STRUCT_CLASS
-
+/Users/user/Desktop/T1000/week-02_LAB_STRUCT_CLASS/README.md
 ## Create a struct City . It has the following properties and function
 - name : String
 - population : Int
